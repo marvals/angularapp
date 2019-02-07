@@ -13,6 +13,8 @@ const express = require('express'),
       err => { console.log('Can not connect to the database'+ err)}
     );
     const adUnitRoutes = require('./routes/adunit.route');
+	const adUnitRoutes = require('./routes/adunit.route');
+	const adUnitRoutes = require('./routes/adunit.route');
 
     app.use(bodyParser.json());
     app.use(cors());
